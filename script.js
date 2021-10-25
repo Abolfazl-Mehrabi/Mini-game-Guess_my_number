@@ -40,7 +40,7 @@ function saveValue(){
     // When player Finds the correct answer
     if ( userNumber === correctAnswer ) {
         document.querySelector(".bottom-text-2").innerHTML="🎉 CORRECT NUMBER ! ";
-        document.querySelector(".bottom-text-2").style.fontSize="3rem";
+        document.querySelector(".bottom-text-2").style.fontSize="2.5rem";
         document.querySelector("body").style.backgroundImage="linear-gradient(180deg, rgba(36,121,9,1) 0%, rgba(0,255,89,1) 100%)";
         document.querySelector("html").style.backgroundColor="rgba(0,255,89,1)";
         document.querySelector(".middle-text-1").innerHTML=correctAnswer;
@@ -70,7 +70,7 @@ function saveValue(){
         document.querySelector("html").style.backgroundColor="rgba(255,0,134,1)";
         document.querySelector("body").style.backgroundImage="linear-gradient(180deg, rgba(191,0,0,1) 0%, rgba(255,0,134,1) 100%)";
         document.querySelector(".bottom-text-2").innerHTML="💀 You Lose ! ";
-        document.querySelector(".bottom-text-2").style.fontSize="3rem";
+        document.querySelector(".bottom-text-2").style.fontSize="2.5rem";
         isFinished = true
     }
     } else if (isFinished) {
