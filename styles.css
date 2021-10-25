@@ -40,6 +40,11 @@ body {
     border-radius: 7px;
 }
 
+.top-text-1:active {
+    background-color: #0080ff;
+    padding: 0.4rem;
+}
+
 .top-text-2 {
     font-family: 'Bebas Neue', cursive;
     padding: 0.4rem;
@@ -112,6 +117,11 @@ input {
     border-radius: 7px;
 }
 
+.bottom-text-1:active {
+    padding: 0.4rem;
+    background-color: #0080ff;
+}
+
 .bottom-text-2{
     font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
@@ -161,5 +171,8 @@ input {
     color: rgb(170, 170, 170);
     font-size: 1.5rem;
     font-family: 'Bebas Neue', cursive;
+}
 
+.wrong {
+    border: red dashed 8px;
 }
