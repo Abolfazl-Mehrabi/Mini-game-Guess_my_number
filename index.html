@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game - Guess My Number</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Icon.png">
+</head>
+<body>
+
+<div class="top">
+    <div class="top-div-1">
+      <span class="top-text-1" onclick="window.location.reload();"> Again !</span>
+      <span class="top-text-2">{ Between 1 & 25 }</span>
+    </div>
+    <br>
+    <div class="top-div-2">
+      <h1>Guess My Number !</h1>
+    </div>
+</div>
+
+<div class="middle">
+    <span class="middle-text-1">?</span>
+</div>
+
+<div class="bottom">
+  <div class="bottom-div-1">
+    <input type="number" placeholder="Guess..."> <br><br><br>
+    <span class="bottom-text-1" onclick="saveValue();">Check!</span>
+  </div>
+  <div class="bottom-div-2">
+    <span class="bottom-text-2">Start Guessing...</span> <br><br><br>
+    <span class="bottom-text-3">💖 Try : <span class="left-life"></span></span>
+    <span class="bottom-text-4">🥇 High Score : <span class="highScore"></span></span>
+  </div>
+</div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+html {
+    background-color: #2c3e50;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97vh;
+    color: white;
+    background-image: linear-gradient(180deg, #000000 0%, #2c3e50 74%);
+}
+
+.top {
+    width: 90%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-div-1 {
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-div-2 {
+    height: 30%;
+    text-align: center;
+}
+
+.top-text-1 {
+    font-family: 'Bebas Neue', cursive;
+    padding: 0.6rem;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.top-text-2 {
+    font-family: 'Bebas Neue', cursive;
+    padding: 0.4rem;
+    font-size: 2rem;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33%;
+    width: 90%;
+}
+
+.middle-text-1 {
+    border-radius: 50%;
+    font-family: 'Bebas Neue', cursive;
+    color: #1a1a1a;
+    background-color: white;
+    padding: 2rem ;
+    font-size: 2.5rem;
+}
+
+.bottom {
+    width: 90%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-div-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.bottom-div-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+input {
+    padding: 0.3rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 7px;
+    border: 5px yellowgreen solid;
+    background-color: #1a1a1a;
+    height: 2rem;
+    width: 10rem;
+}
+
+.bottom-text-1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #1a1a1a;
+    background-color: white;
+    padding: 0.6rem;
+    font-size: 2.5rem;
+    border-radius: 7px;
+}
+
+.bottom-text-2{
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bottom-text-3 , .bottom-text-4 {
+    font-size: 2.25rem;
+}
+
+@media (max-width: 950px) {
+    .top {
+        height: 40%;
+        width: 100%;
+    }
+    .middle{
+        height: 20%;
+        width: 100%;
+    }
+    .bottom{
+        height: 40%;
+        width: 100%;
+    }
+    .top-text-1{
+        font-size: 2rem;
+    }
+    .middle-text-1{
+        padding: 0.5rem;
+    }
+    .bottom-div-2{
+        font-size: 0.9rem;
+    }
+    .bottom-text-1{
+        font-size: 2rem;
+    }
+    .bottom-text-2{
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .bottom-text-3 , .bottom-text-4 {
+        font-size: 1.25rem;
+    }
+}
+
+::placeholder {
+    color: rgb(170, 170, 170);
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+
+}
